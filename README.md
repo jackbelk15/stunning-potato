@@ -6,3 +6,5 @@ test
 test
 la la la
 hi
+
+This is a line from RStudio
