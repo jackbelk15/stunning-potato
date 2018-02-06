@@ -1,0 +1,43 @@
+---
+title: "Lab2"
+author: "Jack Belk"
+date: "2/5/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Record data
+
+```{r}
+a <- c(2,4,3,8,5)
+b <- c(3,4,7,6,9)
+
+```
+
+##Exploratory analysis
+
+```{r}
+plot(a,b)
+```
+
+##Improved graph
+
+```{r}
+plot(a,b, main = "My Scatterplot")
+```
+
+##Improved graph part 2
+
+```{r}
+plot(a,b,main = "My Scatterplot", xlab = "Pringles Eatten", ylab = "Happiness")
+```
+
+##Final Product
+
+```{r}
+plot(a,b,main = "My Scatterplot", xlab = "Pringles Eatten", ylab = "Happiness")
+abline(lm(b~a))
+```
